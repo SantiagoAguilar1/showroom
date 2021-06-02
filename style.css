@@ -1,0 +1,315 @@
+body{
+  margin: 0px;
+}
+h3{
+  font-family: 'Quicksand', sans-serif;
+}
+
+#intro{
+  color: white;
+  margin: 0px;
+  background-image: url(images/showroom.jpg);
+  background-position:center center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  padding: 150px;
+  text-align: center;
+}
+
+#page-header{
+  background-color: #CB9997;
+  padding: 23px;
+}
+
+.text-tittle{  
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 80px;
+  margin-bottom: 2px;
+  margin-top: 40px;
+}
+
+.text-tittle-minus{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 37px;
+  margin-top: 4px;
+}
+
+.text-footer{
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 4px;
+  text-decoration: none;
+}
+
+.text-footer:hover{
+  color: white;
+  text-shadow: 4px 4px 10px blueviolet;
+}
+
+#container-buttonCatalogo{
+  margin: 40px 0px;
+  font-size: 25px;
+}
+
+.button-catalogo{
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 20px 65px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button-catalogo:hover{
+  color: black;
+  border: 1px solid white;
+  background-color: white;
+}
+
+#catalogo{
+  font-family: 'Quicksand', sans-serif;
+  background-color: #F8EDEB;
+  padding: 25px 50px;
+}
+
+.grid{
+    margin: 20px 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2em;
+    padding: 50px;
+}
+
+.component-card{
+  text-align: center;
+  background-color: whitesmoke;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.component-card:hover {
+  box-shadow: 10px 20px 30px grey;
+  transition: 0.4s;
+}
+
+
+.component-card-desc{
+  margin: 0;
+  text-align: center;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.image-card{
+  width: 100%;
+  height: 70%;
+}
+
+
+#footer{
+  background-color: #CB9997;
+  padding: 40px 20px;
+}
+
+.icon {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+#github{
+  color: black;
+}
+#github:hover{
+  color: #3a0ca3;
+}
+
+#twitter{
+  color: black;
+}
+#twitter:hover{
+  color: #3a0ca3;
+}
+
+#instagram{
+  color: black;
+}
+
+#instagram:hover{
+  color: #3a0ca3;
+}
+
+#facebook{
+  color: black;
+}
+
+#facebook:hover{
+  color: #3a0ca3;
+}
+
+@media (max-width: 1050px){
+
+.grid{
+    margin: 20px 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1em;
+    padding: 50px;
+}
+
+}
+
+@media (max-width: 856px){
+
+.grid{
+    margin: 20px 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1em;
+    padding: 50px;
+}
+
+#page-header{
+  background-color: #CB9997;
+  padding: 10px;
+}
+
+.text-tittle{  
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 40px;
+  margin-bottom: 1px;
+  margin-top: 20px;
+}
+
+.text-tittle-minus{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+}
+
+@media (max-width: 650px){
+
+.grid{
+    margin: 20px 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1em;
+    padding: 50px;
+}
+
+#page-header{
+  background-color: #CB9997;
+  padding: 7px;
+}
+
+.text-tittle{  
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  margin-bottom: 1px;
+  margin-top: 10px;
+}
+
+.text-tittle-minus{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 10px;
+  margin-top: 1px;
+}
+
+#container-buttonCatalogo{
+  margin: 40px 0px;
+  font-size: 13px;
+}
+
+.button-catalogo{
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 20px 32px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+}
+
+
+@media (max-width: 500px){
+
+.grid{
+    margin: 5px 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 3em;
+    padding: 30px;
+}
+
+#intro{
+  color: white;
+  margin: 0px;
+  background-image: url(images/showroom.jpg);
+  background-position:center center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  padding: 40px;
+  text-align: center;
+}
+
+#page-header{
+  background-color: #CB9997;
+  padding: 7px;
+}
+
+.text-tittle{  
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  margin-bottom: 1px;
+  margin-top: 10px;
+}
+
+.text-tittle-minus{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 10px;
+  margin-top: 1px;
+}
+
+.text-footer{
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 4px;
+  text-decoration: none;
+}
+
+#container-buttonCatalogo{
+  margin: 40px 0px;
+  font-size: 13px;
+}
+
+.button-catalogo{
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 20px 32px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+}
